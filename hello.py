@@ -1,0 +1,1 @@
+print("Kitchen Inventory Automation Lab 시작")
