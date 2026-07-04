@@ -39,3 +39,6 @@ for ingredient in ingredients:
         f"{ingredient['category']} | "
         f"{ingredient['quantity']}{ingredient['unit']}"
     )
+    
+    if ingredient["quantity"] <= 5:
+        print("  ⚠ 재고 부족")
